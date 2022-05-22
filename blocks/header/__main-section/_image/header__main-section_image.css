@@ -1,0 +1,6 @@
+.header__main-section_image{
+    max-width: 984px;
+    max-height: 615px;
+    position: relative;
+    background-image: url(../../../../images/title__image.jpg)
+}

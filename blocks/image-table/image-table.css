@@ -1,0 +1,7 @@
+.image-table{
+display: grid;
+justify-content: center;
+grid-template-rows: repeat(3, 213px);
+grid-template-columns: repeat(4, 284px);
+gap: 16px;
+}
