@@ -1,7 +1,8 @@
 .image-table{
-display: grid;
-justify-content: center;
-grid-template-rows: repeat(3, 213px);
-grid-template-columns: repeat(4, 284px);
-gap: 16px;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    justify-items: stretch;
 }

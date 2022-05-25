@@ -1,0 +1,13 @@
+.content__row {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    
+  }
+  
+  .card__image {
+    max-height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+    display: flex;
+  }

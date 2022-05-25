@@ -24,8 +24,8 @@
 @import url(../blocks/text-weight-normal/text-weight-normal.css);
 @import url(../blocks/overview/overview.css);
 @import url(../blocks/image-table/image-table.css);
-@import url(..);
-@import url(..);
+@import url(../blocks/image-table/__image/image-table__image.css);
+@import url(../blocks/test.css);
 @import url(..);
 @import url(..);
 @import url(..);
