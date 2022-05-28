@@ -1,4 +1,22 @@
 .overview {
-width: 984px;
-margin: 0 auto 0 auto;
+max-width: 984px;
+margin: auto;
+padding: 92px 48px 92px 48px;
+}
+@media screen and (max-width: 1024px) {
+    .overview{
+        padding-left: 24px;
+        padding-right: 24px;
+        max-width: 924px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .overview{
+        padding: 88px 16px 88px 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .overview{
+        padding: 64px 16px 64px 16px;
+    }
 }

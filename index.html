@@ -9,16 +9,18 @@
 </head>
 <body class="page">
     <header class="header">
-     <div class="header__top-section">
-         <img class="logo" src="./images/__logo.svg" alt="лого"> 
-     </div>
-     <div class="header__main-section">
-       <h1 class="section-title section-title_header">Путешествия по России</h1>
-       <p class="section-paragraph_header-subtitle section-paragraph_header-subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-       <img class="header__main-section_image" src="./images/title-cover.jpg">
-     <p class="header__main-section_image_subtitle">ваша полка — верхняя</p>
-    </div>
+         <img class="logo logo_header" src="./images/__logo.svg" alt="лого">
+         <div class="lang-buttons">
+           <label><input class="lang-button" type="radio" name="language" checked><span class="lang-button_ru">Ru</span></label>
+           <label><input class="lang-button" type="radio" name="language"><span class="lang-button_ru">En</span></label>
+         </div>
     </header>
+    <section class="cover">
+        <h1 class="section-title section-title_header">Путешествия по России</h1>
+        <p class="section-paragraph section-paragraph_header-subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <img class="cover__image" src="./images/title-cover.jpg">
+      <p class="cover__subtitle">ваша полка — верхняя</p>
+     </section>
     <section class="overview">
         <h2 class="section-title section-title_overview">Чего мы там не видели?</h2>
         <p class="section-paragraph section-paragraph_overview">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
@@ -111,15 +113,22 @@
            <img class="bottom-cover__image" src="./images/bottom-cover.jpg">
         </div>
       <a class="bottom-cover_link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-        <div class="bottom-cover__text bottom-cover_link">
+        <div class="bottom-cover__text">
             <h2 class="bottom-cover__text__title">До Байкала «на собаках»</h2>
             <p class="bottom-cover__text__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </div>
       </a>
 
     </section>
-    <footer>
-        
+    <footer class="footer">
+        <ul class="menu">
+            <li><a class="link" href="https://yandex.ru/maps">Карты</a></li>
+            <li><a class="link" href="https://yandex.ru/pogoda">Погода</a></li>
+            <li><a class="link" href="https://rasp.yandex.ru">Расписание</a></li>
+            <li><a class="link" href="https://calendar.yandex.ru">Календарь</a></li>
+            <li><a class="link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
+        <p class="author">&copy; 2020. Чехов Семен</p>
     </footer>
 </body>
 </html>

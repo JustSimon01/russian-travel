@@ -1,0 +1,32 @@
+.locations{
+    margin: auto;
+    padding: 92px 48px 92px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .locations{
+        padding-left: 24px;
+        padding-right: 24px;
+        max-width: 928px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .locations{
+        padding: 88px 16px 90px 16px;
+        max-width: 720px;
+        gap: 73px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .locations{
+        padding: 88px 0px 90px 0px;
+        max-width: 720px;
+        gap: 64px;
+    }
+}
+

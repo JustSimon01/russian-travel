@@ -5,3 +5,15 @@
     margin: 56px auto 0 auto;
     text-align: center;
 }
+@media screen and (max-width: 1024px) {
+    .section-title_header{
+        margin: 48px auto 0 auto;
+    }
+}
+@media screen and (max-width: 680px) {
+    .section-title_header{
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 720px;
+    }
+}

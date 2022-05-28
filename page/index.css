@@ -4,16 +4,21 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__top-section/header__top-section.css);
+
 
 @import url(../blocks/lang-button/lang-button.css);
 @import url(../blocks/lang-button/_en/lang-button_en.css);
 @import url(../blocks/lang-button/_ru/lang-button_ru.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/header/__main-section/header__main-section.css);
-@import url(../blocks/header/__main-section/_image/header__main-section_image.css);
-@import url(../blocks/header/__main-section/_image/_subtitle/header__main-section_image_subtitle.css);
-@import url(../blocks/header/__main-section/_image/_route/header__main-section_image_route.css);
+@import url(../blocks/logo/_header/logo_header.css);
+@import url(../blocks/lang-button/lang-button.css);
+@import url(../blocks/lang-button/_ru/lang-button_ru.css);
+@import url(../blocks/lang-buttons/lang-buttons.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_header/section-title_header.css);
 @import url(../blocks/section-title/_overview/section-title_overview.css);
@@ -25,8 +30,9 @@
 @import url(../blocks/overview/overview.css);
 @import url(../blocks/image-table/image-table.css);
 @import url(../blocks/image-table/__image/image-table__image.css);
+@import url(../blocks/locations/locations.css);
 @import url(../blocks/card/card.css);
-@import url(../blocks/card//__card-image/card__card-image.css);
+@import url(../blocks/card/__card-image/card__card-image.css);
 @import url(../blocks/card/__card-paragraph/card__card-paragraph.css);
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__card-links/card__card-links.css);
@@ -38,9 +44,9 @@
 @import url(../blocks/bottom-cover/__image/bottom-cover__image.css);
 @import url(../blocks/bottom-cover/_overlay/bottom-cover_overlay.css);
 @import url(../blocks/bottom-cover/_link/bottom-cover_link.css);
-@import url(..);
-@import url(..);
-@import url(..);
-@import url(..);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/author/author.css);
+@import url(../blocks/link/link.css);
 @import url(..);
 @import url(..);

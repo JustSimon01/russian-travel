@@ -5,4 +5,9 @@
     line-height: 22px;  
     text-decoration-line: underline;
     color: #FFFFFF;
+    transition: opacity ease 0.4s;
 }
+
+.card__card-links__link:hover {
+   opacity: 0.8;
+ }

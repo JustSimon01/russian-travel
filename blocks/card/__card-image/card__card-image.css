@@ -2,3 +2,13 @@
     max-width: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 570px) {
+    .card__card-image{
+        max-width: 100%;
+        padding-left: -16px;
+        padding-right: -16px;
+        object-fit: cover;
+    }
+    
+}

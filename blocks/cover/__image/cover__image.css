@@ -1,9 +1,6 @@
-.header__main-section_image{
-    max-width: 984px;
+.cover__image{
     max-height: 100%;
     max-width: 100%;
     position: relative;
-  
     object-fit: contain;
-  
 }

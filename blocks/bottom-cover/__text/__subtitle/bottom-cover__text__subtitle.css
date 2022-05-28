@@ -8,3 +8,11 @@ color: #FFFFFF;
 max-width: 360px;
 margin: 32px auto 0 auto;
 }
+@media screen and (max-width: 570px) {
+    .bottom-cover__text__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 267px;
+        margin: 16px auto 0 auto;
+    }
+}

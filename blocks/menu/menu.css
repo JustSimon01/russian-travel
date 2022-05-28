@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 660px) {
+    .menu{
+        flex-direction: column;
+        gap: 32px;
+    }
+}

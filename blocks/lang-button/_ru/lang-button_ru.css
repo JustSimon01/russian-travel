@@ -1,0 +1,30 @@
+.lang-button_ru {
+margin: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+display: flex;
+vertical-align: middle;
+width: 30px;
+height: 28px;
+}
+
+.lang-button_ru:hover {
+    cursor: pointer;
+}
+
+.lang-button:checked+.lang-button_ru {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 660px) {
+    .lang-button_ru{
+        font-size: 18px;
+        line-height: 20px;
+        width: 22px;
+        height: 20px;
+   }
+}

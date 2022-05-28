@@ -1,8 +1,31 @@
 .image-table{
-    padding-left: 48px;
-    padding-right: 48px;
+margin: auto;
+padding-left: 48px;
+padding-right: 48px;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
     justify-items: stretch;
+}
+@media screen and (max-width: 1024px) {
+    .image-table{
+        padding-left: 24px;
+        padding-right: 24px;
+        gap: 14px;
+        max-width: 924px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .image-table{
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 16px;
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .image-table{
+        gap: 12px;
+    }
 }
