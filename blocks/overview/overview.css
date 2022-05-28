@@ -1,22 +1,15 @@
 .overview {
-max-width: 984px;
-margin: auto;
-padding: 92px 48px 92px 48px;
-}
-@media screen and (max-width: 1024px) {
-    .overview{
-        padding-left: 24px;
-        padding-right: 24px;
-        max-width: 924px;
+    margin: auto;
+    padding-top: 92px;
     }
-}
+
 @media screen and (max-width: 768px) {
     .overview{
-        padding: 88px 16px 88px 16px;
+        padding-top: 88px;
     }
 }
 @media screen and (max-width: 320px) {
     .overview{
-        padding: 64px 16px 64px 16px;
+        padding-top: 64px;
     }
 }
