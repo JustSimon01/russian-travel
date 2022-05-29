@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 .bottom-cover__text:hover{
     background-color: rgba(42, 44, 47, 0.7);

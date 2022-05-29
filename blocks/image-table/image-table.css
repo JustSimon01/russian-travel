@@ -5,7 +5,6 @@
         display: grid;
         gap: 16px;
         grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
-        justify-items: stretch;
     }
     @media screen and (max-width: 1024px) {
         .image-table{
