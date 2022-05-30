@@ -9,32 +9,34 @@
 </head>
 <body class="page">
     <header class="header">
-         <img class="logo logo_header" src="./images/__logo.svg" alt="лого">
+         <img class="logo" src="./images/__logo.svg" alt="лого">
          <div class="lang-buttons">
-           <label><input class="lang-button" type="radio" name="language" checked><span class="lang-button_ru">Ru</span></label>
-           <label><input class="lang-button" type="radio" name="language"><span class="lang-button_ru">En</span></label>
+             <a class="lang-button lang-button_checked" href="#">Ru</a>
+             <a class="lang-button" href="#">En</a>
          </div>
     </header>
+    <main>
     <section class="cover">
-        <h1 class="section-title section-title_header">Путешествия по России</h1>
-        <p class="section-paragraph section-paragraph_header-subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <h1 class="cover__title">Путешествия по России</h1>
+        <p class="cover__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="cover__image" src="./images/title-cover.jpg" alt="обложка">
-      <p class="cover__subtitle">ваша полка — верхняя</p>
+      <p class="cover__image-subtitle">ваша полка — верхняя</p>
     </section>
     <section class="overview">
      <div class="overview__text">
-        <h2 class="section-title section-title_overview">Чего мы там не видели?</h2>
-        <p class="section-paragraph section-paragraph_overview">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
+        <h2 class="overview__title">Чего мы там не видели?</h2>
+        <p class="overview__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <p class="section-paragraph section-paragraph_stats">
-            Часовых поясов <span class="text-weight-normal">11<br></span>
-            Объектов природного наследия ЮНЕСКО <span class="text-weight-normal">12<br></span>
-            Объектов культурного наследия ЮНЕСКО <span class="text-weight-normal">16<br></span>
-            Природных заповедников <span class="text-weight-normal">105<br></span>
-            Аэропортов <span class="text-weight-normal">241<br></span>
-        </p>
+        <ul class="overview__stats">
+            <li>Часовых поясов <span class="text-weight-normal">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="text-weight-normal">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="text-weight-normal">16</span></li>
+            <li>Природных заповедников <span class="text-weight-normal">105</span></li>
+            <li>Аэропортов <span class="text-weight-normal">241</span></li>
+        </ul>
      </div>
-     <div class="image-table">
+     </section>
+     <section class="image-table">
         <img src="./images/__item.jpg" class="image-table__image" alt="картинка1">
         <img src="./images/__item2.jpg" class="image-table__image" alt="картинка2">
         <img src="./images/__item3.jpg" class="image-table__image" alt="картинка3">
@@ -47,14 +49,13 @@
         <img src="./images/__item10.jpg" class="image-table__image" alt="картинка10">
         <img src="./images/__item11.jpg" class="image-table__image" alt="картинка11">
         <img src="./images/__item12.jpg" class="image-table__image" alt="картинка12">
-     </div>
     </section>
     <section class="locations">
         <div class="card">
             <h3 class="card__header">Куршская коса</h3>
             <div class="card__card-links">
-                <p>URL</p>
-                <a class="card__card-links__link" href="http://park-kosa.ru/">park-kosa.ru</a>
+                <p class="card__text-url">URL</p>
+                <a class="card__card-links-link" href="http://park-kosa.ru/">park-kosa.ru</a>
             </div>
             <img class="card__card-image" src="./images/kurshskaya_kosa.jpg" alt="куршская_коса">
             <div>
@@ -65,8 +66,8 @@
         <div class="card">
             <h3 class="card__header">Кольский</h3>
             <div class="card__card-links">
-                <p>URL</p>
-                <a class="card__card-links__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                <p class="card__text-url">URL</p>
+                <a class="card__card-links-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
             </div>
             <img class="card__card-image" src="./images/kolsky.jpg" alt="кольский">
             <div>
@@ -77,8 +78,8 @@
         <div class="card">
             <h3 class="card__header">Алтай</h3>
             <div class="card__card-links">
-                <p>URL</p>
-                <a class="card__card-links__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+                <p class="card__text-url">URL</p>
+                <a class="card__card-links-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
             </div>
             <img class="card__card-image" src="./images/altai.jpg" alt="алтай">
             <div>
@@ -89,8 +90,8 @@
         <div class="card">
             <h3 class="card__header">Зимний Байкал</h3>
             <div class="card__card-links">
-                <p>URL</p>
-                <a class="card__card-links__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                <p class="card__text-url">URL</p>
+                <a class="card__card-links-link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
             <img class="card__card-image" src="./images/baikal.jpg" alt="байкал">
             <div>
@@ -101,8 +102,8 @@
         <div class="card">
             <h3 class="card__header">Карелия</h3>
             <div class="card__card-links">
-                <p>URL</p>
-                <a class="card__card-links__link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+                <p class="card__text-url">URL</p>
+                <a class="card__card-links-link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
             </div>
             <img class="card__card-image" src="./images/karelia.jpg" alt="карелия">
             <div>
@@ -111,23 +112,26 @@
         </div>
     </section>
     <section class="bottom-cover">
-        <div class="bottom-cover bottom-cover_overlay">
-           <img class="bottom-cover__image" src="./images/bottom-cover.jpg" alt="обложка_поезда">
-        </div>
-      <a class="bottom-cover__text" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <h2 class="bottom-cover__text__title">До Байкала «на собаках»</h2>
-            <p class="bottom-cover__text__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      <img class="bottom-cover__image" src="./images/bottom-cover.jpg" alt="обложка_поезда">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <div class="bottom-cover__text">
+            <h2 class="bottom-cover__text-title">До Байкала «на собаках»</h2>
+            <p class="bottom-cover__text-subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          </div>
       </a>
     </section>
+    </main>
     <footer class="footer">
-        <ul class="menu">
+        <nav>
+         <ul class="menu">
             <li><a class="link" href="https://yandex.ru/maps">Карты</a></li>
             <li><a class="link" href="https://yandex.ru/pogoda">Погода</a></li>
             <li><a class="link" href="https://rasp.yandex.ru">Расписание</a></li>
             <li><a class="link" href="https://calendar.yandex.ru">Календарь</a></li>
             <li><a class="link" href="https://travel.yandex.ru">Путешествия</a></li>
-        </ul>
-        <p class="author">&copy; 2020. Чехов Семен</p>
+         </ul>
+        </nav>
+        <p class="footer__author">&copy; 2020. Чехов Семен</p>
     </footer>
 </body>
 </html>

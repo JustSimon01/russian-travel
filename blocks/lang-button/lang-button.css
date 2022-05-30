@@ -1,8 +1,25 @@
-.lang-button[type="radio"]{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-} 
+.lang-button{
+        margin: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        color: #FFFFFF;
+        text-decoration: none;
+        opacity: 1;
+        transition: opacity ease 0.4s;
+    }
+    
+    .lang-button:hover {
+       opacity: 0.8;
+     }
 
+@media screen and (max-width: 660px) {
+    .lang-button{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+}

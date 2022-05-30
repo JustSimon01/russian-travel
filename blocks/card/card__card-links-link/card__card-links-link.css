@@ -1,4 +1,4 @@
-.card__card-links__link{
+.card__card-links-link{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -8,6 +8,6 @@
     transition: opacity ease 0.4s;
 }
 
-.card__card-links__link:hover {
+.card__card-links-link:hover {
    opacity: 0.8;
  }

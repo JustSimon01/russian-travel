@@ -4,17 +4,8 @@ flex-direction: column;
 justify-content: flex-end;
 gap: 12px;
 }
-.card__card-links p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
-    color: #AAAAAA;
-    margin-top: 0;
-    margin-bottom: 0;
 
- }
+
  @media screen and (max-width: 570px) {
     .card__card-links{
         padding-left: 16px;
